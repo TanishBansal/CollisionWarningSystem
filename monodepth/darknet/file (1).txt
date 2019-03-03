@@ -1,0 +1,9 @@
+truck 	 1101 	 346
+motorbike 	 478 	 521
+motorbike 	 314 	 367
+car 	 879 	 403
+car 	 630 	 367
+car 	 212 	 351
+person 	 480 	 394
+person 	 84 	 363
+person 	 42 	 364
