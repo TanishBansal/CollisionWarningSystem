@@ -1,7 +1,7 @@
 import os 
-i = len([f for f in os.listdir(r"/home/ubuntu/monodepth/Images/Raw") if f[0] != '.'])
+i = len([f for f in os.listdir(r"/home/ubuntu/CollisionWarningSystem/monodepth/Images/Raw") if f[0] != '.'])
 print(i)
-os.chdir(r"/home/ubuntu/monodepth/utils/filenames/")
+os.chdir(r"/home/ubuntu/CollisionWarningSystem/monodepth/utils/filenames/")
 f= open("list.txt","w+")
 x = 1
 for x in range(1 ,i+1):

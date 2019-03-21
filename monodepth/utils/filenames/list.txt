@@ -103,3 +103,4 @@ Images/Raw/my_image102.jpg
 Images/Raw/my_image103.jpg
 Images/Raw/my_image104.jpg
 Images/Raw/my_image105.jpg
+Images/Raw/my_image106.jpg

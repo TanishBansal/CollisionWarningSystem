@@ -2,17 +2,17 @@ import os
 import cv2
 import numpy as np
 #qe=os.environ["bo"]
-w=np.load(r"/home/ubuntu/monodepth/Output/disparities_pp.npy")
+w=np.load(r"/home/ubuntu/CollisionWarningSystem/monodepth/Output/disparities_pp.npy")
 i=1
 s=0
 q=1
-f=open(r"/home/ubuntu/monodepth/darknet/r.txt","r+")
+f=open(r"/home/ubuntu/CollisionWarningSystem/monodepth/darknet/r.txt","r+")
 x=[]
 yy=[]
 t=[]
 d=0
-g=r"/home/ubuntu/monodepth/ImagesNormal/Raw/"
-qe = len([f for f in os.listdir(r"/home/ubuntu/monodepth/ImagesNormal/Raw/") if f[0] != '.'])
+g=r"/home/ubuntu/CollisionWarningSystem/monodepth/ImagesNormal/Raw/"
+qe = len([f for f in os.listdir(r"/home/ubuntu/CollisionWarningSystem/monodepth/ImagesNormal/Raw/") if f[0] != '.'])
 for y in range(1,qe):
     f.seek(s, 0)
     while True:
@@ -29,17 +29,17 @@ for y in range(1,qe):
     g1=g+"my_image"+str(y)+".jpg"
     j=cv2.imread(g1)
     new=j
-    r=open(r"/home/ubuntu/monodepth/darknet/ultimate2.txt","w")
+    r=open(r"/home/ubuntu/CollisionWarningSystem/monodepth/darknet/ultimate2.txt","w")
     str1=''.join(x)
     #print(str1)
     r.write(str1)
     r.close()
-    r1=open(r"/home/ubuntu/monodepth/darknet/ultimate2.txt","r")
+    r1=open(r"/home/ubuntu/CollisionWarningSystem/monodepth/darknet/ultimate2.txt","r")
     #num_line=sum(1 for line in (r1))
     #print (num_line)
     
     for line in (r1):
-        print("done")
+        print(line)
         z=line.split("\t")
         yy.append(z)
     for c in range(len(yy)):
@@ -60,7 +60,7 @@ for y in range(1,qe):
         d=0
     yy.clear()
     t.clear()
-    filename="/home/ubuntu/monodepth/darknet/collisions/"+"collisions"+str(y)+".jpg"
+    filename="/home/ubuntu/CollisionWarningSystem/monodepth/darknet/collisions/"+"collisions"+str(y)+".jpg"
     cv2.imwrite(filename,new)
     x.clear()    
     r1.close()   
