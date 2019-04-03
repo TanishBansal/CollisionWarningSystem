@@ -1,0 +1,1 @@
+/home/ubuntu/CollisionWarningSystem/monodepth/darknet/data/image_resized.jpg
