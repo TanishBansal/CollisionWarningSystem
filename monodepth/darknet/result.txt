@@ -1,370 +1,1718 @@
 TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH TH Total BFLOPS 65.348 
 
  seen 32 
-Person	  26	 129 
-Car	  76	 125 
+Person	  31	 125 
+Motorbike	  86	 130 
+Motorbike	 126	 131 
+Motorbike	 187	 183 
+Car	 360	 145 
+$
+Person	  27	 124 
+Car	  84	 124 
 Motorbike	 123	 131 
 Car	 362	 144 
 $
+Person	  27	 130 
+Car	  84	 125 
+Motorbike	 123	 131 
+Car	 362	 143 
+$
+Person	  15	 133 
+Person	  25	 132 
+Car	  75	 131 
+Motorbike	 120	 131 
+Car	 248	 133 
+Car	 366	 147 
+$
+Person	  14	 134 
+Person	 190	 124 
+Car	 248	 133 
+Car	 365	 149 
+$
+Person	  12	 134 
+Car	  75	 132 
+Car	 248	 133 
+Car	 369	 147 
+Truck	 458	 123 
+$
+Person	  11	 133 
+Car	  75	 132 
+Motorbike	 122	 136 
+Car	 375	 147 
+$
 Person	  12	 133 
-Car	  74	 131 
-Motorbike	 124	 131 
-Motorbike	 204	 183 
-Car	 379	 146 
-Truck	 467	 123 
+Motorbike	 127	 132 
+Motorbike	 203	 184 
+Car	 259	 133 
+Car	 376	 149 
+Truck	 467	 122 
 $
-Motorbike	 208	 174 
-Car	 249	 124 
-Car	 389	 144 
+Car	 381	 143 
 $
-Motorbike	 151	 135 
-Car	 410	 153 
+Motorbike	 204	 174 
+Car	 382	 142 
 $
-Motorbike	 162	 134 
-Motorbike	 231	 154 
-Car	 421	 154 
+Motorbike	 206	 174 
+Car	 385	 141 
 $
-Motorbike	 123	 142 
-Motorbike	 162	 135 
-Motorbike	 245	 184 
+Motorbike	 206	 174 
+Car	 388	 143 
+$
+Motorbike	 207	 174 
+Car	 389	 145 
+$
+Motorbike	 205	 184 
+Car	 386	 153 
+$
+Motorbike	 207	 184 
+Car	 404	 154 
+$
+Motorbike	 208	 184 
+Car	 405	 154 
+$
+Motorbike	 212	 184 
+Car	 408	 154 
+$
+Car	 409	 155 
+$
+Motorbike	 214	 184 
+Car	 416	 154 
+$
+Motorbike	 223	 184 
+Car	 417	 153 
+$
+Motorbike	 226	 184 
+Car	 417	 154 
+$
+Motorbike	 227	 183 
+Car	 421	 153 
+$
+Motorbike	 163	 133 
+Motorbike	 228	 184 
+Car	 423	 154 
+$
+Motorbike	 230	 153 
+Car	 426	 162 
+$
+Motorbike	 233	 153 
+Car	 427	 154 
+$
+Motorbike	 233	 184 
+Car	 426	 163 
+$
+Motorbike	 241	 153 
+Car	 426	 153 
+$
+Motorbike	 243	 153 
 Car	 428	 163 
 $
-Motorbike	 262	 173 
-Car	 443	 153 
+Motorbike	 245	 182 
+Car	 440	 162 
 $
-Motorbike	 135	 124 
-Car	 241	 122 
-Motorbike	 281	 164 
-Person	 391	 120 
-Car	 454	 149 
+Motorbike	 247	 153 
+Car	 439	 163 
 $
-Motorbike	 142	 133 
-Car	 249	 136 
-Motorbike	 299	 152 
-Car	 475	 162 
+Car	  56	 132 
+Motorbike	 249	 182 
+Car	 440	 162 
 $
-Bus	  44	 123 
-Motorbike	 143	 132 
-Motorbike	 182	 130 
+Car	 440	 162 
+$
+Motorbike	 262	 144 
+Car	 443	 154 
+$
+Motorbike	 267	 163 
+Car	 447	 149 
+$
+Motorbike	 269	 163 
+Car	 442	 147 
+$
+Car	 450	 148 
+$
+Car	 455	 145 
+$
+Motorbike	 282	 163 
+Car	 450	 148 
+$
+Motorbike	 135	 132 
+Motorbike	 285	 143 
+Car	 457	 154 
+$
+Car	 246	 132 
+Motorbike	 290	 144 
+Car	 465	 162 
+$
+Car	 246	 133 
+Motorbike	 291	 172 
+Car	 466	 163 
+$
+Car	 246	 135 
+Person	 405	 130 
+Car	 468	 153 
+$
+Car	 248	 135 
+Car	 468	 154 
+$
+Car	 251	 140 
+Motorbike	 305	 152 
+Car	 477	 162 
+$
+Car	 248	 136 
+Motorbike	 309	 153 
+Car	 478	 162 
+$
+Motorbike	 309	 174 
+Car	 479	 163 
+$
+Car	 250	 135 
+Car	 481	 163 
+$
+Car	  47	 122 
 Car	 251	 134 
-Motorbike	 313	 144 
-Person	 427	 130 
-Car	 482	 162 
+Motorbike	 312	 144 
+Car	 483	 162 
 $
-Motorbike	 141	 140 
+Car	 249	 132 
+Motorbike	 320	 144 
+Car	 485	 162 
+$
+Car	 248	 134 
+Motorbike	 319	 144 
+$
+Car	 244	 133 
+Motorbike	 318	 144 
+Car	 485	 172 
+$
+Car	 245	 133 
+Motorbike	 324	 143 
+$
+Car	 245	 133 
+Motorbike	 323	 144 
+$
 Car	 243	 133 
-Motorbike	 325	 144 
+Motorbike	 326	 143 
 $
-Motorbike	 133	 141 
-Car	 233	 135 
-Motorbike	 327	 152 
-Person	 446	 132 
+Car	 241	 133 
+Motorbike	 327	 144 
 $
-Car	 234	 134 
-Car	 304	 130 
-Motorbike	 342	 143 
+Car	 232	 134 
+Motorbike	 326	 144 
+$
+Motorbike	 327	 145 
+$
+Motorbike	 327	 146 
+$
+Car	 232	 134 
+Motorbike	 330	 144 
+$
+Car	 232	 134 
+Motorbike	 332	 143 
+$
+Car	 128	 113 
+Car	 232	 132 
+Car	 302	 125 
+Person	 465	 122 
+$
+Car	  30	 122 
+Car	 232	 132 
+Motorbike	 339	 142 
+$
+Car	 232	 133 
+Motorbike	 340	 143 
+$
+Person	  52	 123 
+Car	 231	 133 
+Motorbike	 341	 143 
+$
+Car	 228	 135 
+Car	 302	 133 
+Motorbike	 342	 151 
+$
+Car	 223	 135 
+Motorbike	 339	 143 
+$
+Car	 221	 134 
+Car	 298	 125 
+Motorbike	 339	 144 
+Person	 478	 132 
+$
+Car	 221	 133 
+Motorbike	 339	 142 
+$
+Car	 214	 133 
+Car	 298	 125 
+Motorbike	 341	 142 
 $
 Car	 220	 134 
-Car	 298	 126 
-Motorbike	 339	 142 
-Person	 484	 131 
+Motorbike	 342	 143 
+$
+Car	 214	 134 
+Car	 301	 132 
+Motorbike	 341	 143 
+$
+Car	 213	 135 
+Car	 300	 132 
+Motorbike	 344	 162 
 $
 Car	 213	 140 
-Car	 300	 133 
-Motorbike	 345	 144 
+Car	 302	 134 
+Motorbike	 344	 144 
 $
-Car	 208	 150 
-Car	 305	 144 
+Car	 211	 142 
+Motorbike	 348	 152 
 $
-Bus	  71	 126 
-Motorbike	 126	 144 
-Car	 204	 146 
-Motorbike	 270	 136 
-Car	 312	 142 
-Motorbike	 361	 172 
+Car	 211	 144 
+Car	 305	 141 
+Motorbike	 349	 151 
 $
-Car	 192	 135 
-Motorbike	 269	 130 
+Car	 213	 145 
+Car	 308	 142 
+Motorbike	 350	 152 
+$
+Car	 211	 150 
+$
+Car	 207	 151 
+Car	 307	 142 
+$
+Car	 200	 150 
+Car	 301	 143 
+$
+Car	 201	 150 
+Car	 300	 142 
+$
+Car	 203	 150 
+Motorbike	 250	 141 
+Car	 305	 143 
+$
+Bus	  95	 127 
+Car	 205	 150 
+Car	 308	 142 
+$
+Car	 205	 145 
+Car	 310	 141 
+$
+Car	 201	 142 
+Car	 312	 135 
+$
+Car	 199	 142 
+Motorbike	 267	 132 
+Car	 312	 135 
+$
+Car	 199	 142 
+$
+Car	 199	 142 
+Car	 317	 135 
+$
+Car	 193	 141 
 Car	 318	 133 
 $
-Motorbike	 106	 134 
-Car	 180	 134 
-Motorbike	 266	 125 
+Bus	  69	 110 
+Car	 192	 135 
+Car	 319	 133 
+Motorbike	 367	 143 
+$
+Bus	  66	 107 
+Car	 188	 134 
+Car	 320	 131 
+$
+Bus	  65	 109 
+Car	 186	 133 
+Car	 318	 131 
+$
+Car	 182	 134 
 Car	 313	 131 
+Motorbike	 361	 143 
+$
+Car	 174	 134 
+Car	 312	 131 
+$
+Bus	  58	 105 
+Car	 169	 133 
+Motorbike	 265	 123 
+$
+Car	 171	 133 
+Motorbike	 268	 123 
+$
+Person	 103	 124 
+Car	 168	 133 
+Motorbike	 267	 124 
+$
+Bus	  60	 109 
+Car	 166	 135 
+Motorbike	 267	 123 
+Car	 320	 130 
+Motorbike	 362	 152 
 $
 Car	 165	 135 
+Motorbike	 268	 125 
+Car	 318	 131 
+Motorbike	 362	 153 
+$
+Bus	  50	 113 
+Car	 153	 135 
+Car	 312	 126 
+Motorbike	 362	 153 
+$
+Bus	  46	 113 
+Car	 152	 134 
 Motorbike	 266	 123 
-Car	 319	 131 
-Motorbike	 363	 153 
+Car	 320	 130 
+Motorbike	 363	 154 
+$
+Car	 152	 135 
+Car	 318	 131 
+$
+Car	 151	 135 
+Car	 318	 131 
 $
 Car	 151	 141 
-Car	 318	 132 
-Motorbike	 367	 143 
-Motorbike	 366	 161 
+Car	 318	 131 
+Motorbike	 363	 143 
 $
-Bus	  34	 104 
-Car	 126	 128 
-Motorbike	 267	 121 
-Car	 318	 125 
+Car	 145	 133 
+Motorbike	 267	 123 
+Car	 320	 126 
+Motorbike	 364	 153 
+$
+Car	 134	 131 
+Car	 320	 125 
+Motorbike	 364	 142 
+$
+Bus	  36	 112 
+Car	 131	 132 
+Car	 320	 124 
+Motorbike	 367	 151 
+$
+Car	 128	 132 
+Car	 320	 124 
+Motorbike	 366	 152 
+$
+Car	 124	 131 
+Car	 319	 124 
+Motorbike	 363	 135 
 Motorbike	 365	 151 
 $
-Car	  96	 130 
+Car	 112	 129 
+Car	 320	 121 
+Motorbike	 366	 134 
 $
-Car	  68	 142 
-Motorbike	 264	 122 
-Car	 317	 126 
+Car	 111	 131 
+Car	 321	 121 
+Motorbike	 367	 144 
+$
+Car	 108	 130 
+Car	 324	 121 
+Motorbike	 366	 144 
+$
+Car	 106	 131 
+Car	 323	 121 
+$
+Car	  98	 130 
+$
+Car	  76	 129 
+Car	 163	 113 
+Car	 318	 120 
+$
+Car	  73	 132 
+Car	 310	 122 
+$
+Car	 318	 124 
+$
+Car	  69	 140 
+Car	 317	 125 
+Motorbike	 364	 143 
+$
+Car	  67	 142 
+Motorbike	 267	 122 
+Car	 313	 126 
 Motorbike	 364	 153 
+$
+Car	  67	 142 
+Car	 318	 124 
+Motorbike	 368	 133 
+Motorbike	 368	 151 
+$
+Car	  64	 135 
+Car	 320	 123 
+Motorbike	 368	 133 
+Motorbike	 368	 151 
+$
+Car	 319	 123 
+Motorbike	 367	 151 
+$
+Car	  56	 142 
+Motorbike	 268	 115 
+Car	 318	 122 
+Motorbike	 366	 132 
 $
 Car	  59	 144 
 Car	 318	 123 
 Motorbike	 367	 133 
 $
+Car	  50	 147 
+Person	 128	 124 
+Motorbike	 268	 121 
+Car	 318	 125 
+Motorbike	 367	 133 
+$
+Car	  49	 146 
+Person	 128	 125 
+Motorbike	 268	 122 
+Car	 318	 125 
+Motorbike	 366	 134 
+$
+Car	  47	 143 
+Car	 318	 126 
+$
+Car	  46	 144 
+Car	 319	 125 
+$
 Car	  42	 152 
 Car	 318	 126 
 Motorbike	 366	 143 
 $
+Car	  30	 144 
+Car	 319	 125 
+$
+Car	  28	 144 
+Person	 125	 124 
+Car	 321	 122 
+$
+Car	  27	 144 
+Car	 322	 122 
+$
+Car	  25	 143 
+Motorbike	 268	 115 
+Car	 324	 120 
+$
 Car	  15	 142 
 Person	 113	 115 
 $
+Motorbike	 268	 122 
+Car	 318	 122 
+Motorbike	 366	 133 
+$
+Motorbike	 109	 123 
+Motorbike	 268	 123 
+Car	 319	 125 
+Motorbike	 369	 135 
+$
+Motorbike	 109	 123 
+Motorbike	 266	 124 
+Car	 320	 125 
+Motorbike	 369	 134 
+$
+Motorbike	 268	 124 
+Car	 319	 126 
+$
 Motorbike	 265	 125 
 Car	 321	 130 
+$
+Motorbike	 262	 132 
+Car	 318	 133 
+Motorbike	 368	 143 
+$
+Car	 318	 133 
+Motorbike	 368	 163 
+$
+Motorbike	 262	 132 
+Car	 312	 134 
+$
+Motorbike	 264	 133 
+Car	 313	 134 
+Motorbike	 365	 163 
 $
 Motorbike	 265	 124 
 Car	 313	 134 
 Motorbike	 366	 163 
 $
+Car	 312	 133 
+Motorbike	 365	 144 
+$
+Motorbike	 262	 123 
+Car	 311	 133 
+Motorbike	 365	 143 
+$
+Motorbike	 263	 124 
+Car	 311	 132 
+Motorbike	 365	 142 
+$
+Car	 312	 131 
+$
 Motorbike	 265	 124 
 Motorbike	 368	 162 
+$
+Motorbike	 266	 124 
+Car	 318	 126 
+Motorbike	 369	 142 
+$
+Motorbike	 266	 124 
+Car	 317	 126 
+$
+Motorbike	 264	 123 
+Car	 318	 125 
+Motorbike	 369	 133 
+$
+Motorbike	 264	 123 
+Car	 319	 124 
+Motorbike	 370	 133 
 $
 Motorbike	 265	 115 
 Car	 319	 122 
 Motorbike	 368	 133 
 $
+Motorbike	 263	 114 
+Car	 319	 121 
+$
+Car	 320	 124 
+Motorbike	 369	 135 
+$
+Car	 317	 125 
+$
+Motorbike	 265	 123 
+Car	 319	 125 
+$
 Motorbike	 267	 123 
 Car	 319	 124 
+$
+Motorbike	 267	 122 
+Car	 322	 121 
+$
+Motorbike	 269	 121 
+Car	 324	 122 
+$
+Motorbike	 267	 121 
+Car	 326	 122 
+Motorbike	 379	 134 
+$
+Motorbike	 267	 123 
+Car	 325	 124 
+Motorbike	 380	 134 
 $
 Motorbike	 267	 122 
 Car	 324	 124 
 Motorbike	 381	 134 
 $
+Motorbike	 270	 121 
+Car	 325	 120 
+Motorbike	 381	 134 
+$
+Motorbike	 267	 122 
+Car	 330	 120 
+Motorbike	 386	 133 
+$
+Motorbike	 269	 122 
+Car	 326	 121 
+Motorbike	 386	 134 
+$
+Motorbike	 269	 123 
+Car	 328	 120 
+$
 Motorbike	 272	 122 
 Car	 330	 120 
 $
+Motorbike	 270	 114 
+Motorbike	 398	 133 
+$
+Motorbike	 271	 123 
+Car	 331	 121 
+Motorbike	 398	 134 
+$
+Motorbike	 270	 124 
+Car	 332	 124 
+Motorbike	 399	 142 
+$
+Motorbike	 270	 124 
+Car	 331	 125 
+Motorbike	 399	 142 
+$
 Motorbike	 399	 143 
+$
+Motorbike	 269	 131 
+Car	 327	 130 
+Motorbike	 404	 171 
+$
+Motorbike	 262	 125 
+Car	 327	 125 
+Motorbike	 399	 141 
+$
+Motorbike	 262	 123 
+Car	 324	 124 
+Motorbike	 401	 141 
+$
+Car	 326	 123 
+Motorbike	 402	 142 
 $
 Car	 325	 121 
 Motorbike	 402	 133 
 $
+Car	 330	 114 
+$
+$
+Car	 339	 103 
+Motorbike	 423	 114 
+$
+Motorbike	 263	 103 
+Car	 331	 103 
+$
 Car	 329	 112 
+$
+Car	 328	 114 
+$
+Car	 338	 125 
+$
+Car	 339	 125 
+$
+Person	 262	 124 
+Car	 339	 124 
 $
 Person	 259	 123 
 Car	 338	 122 
 $
+$
+Car	 340	 115 
+$
+Motorbike	 261	 114 
+Car	 340	 114 
+$
+Motorbike	 261	 114 
+Car	 343	 111 
+$
 Person	 260	 111 
 Car	 344	 111 
+$
+Motorbike	 259	 112 
+Car	 340	 106 
+$
+Motorbike	 260	 112 
+Car	 283	 103 
+Car	 341	 110 
+$
+Motorbike	 259	 112 
+Car	 342	 112 
+$
+Person	 253	 113 
+Motorbike	 260	 114 
+Car	 344	 112 
+Motorbike	 464	 134 
 $
 Motorbike	 259	 121 
 Car	 342	 114 
 $
+Car	 342	 115 
+$
+Motorbike	 262	 121 
+Car	 342	 114 
+$
+Motorbike	 261	 131 
+Car	 345	 115 
+$
+Car	 344	 116 
+$
 Motorbike	 253	 132 
 Car	 282	 111 
 Car	 345	 120 
+$
+Car	 281	 112 
+Car	 343	 120 
+$
+Motorbike	  68	 114 
+Person	 250	 114 
+Car	 341	 121 
+$
+Motorbike	  67	 121 
+Motorbike	 250	 123 
+Car	 279	 113 
+Car	 341	 120 
+Motorbike	 479	 144 
+$
+Motorbike	  70	 122 
+Motorbike	 248	 132 
+Car	 341	 120 
+Motorbike	 467	 143 
 $
 Motorbike	  67	 122 
 Motorbike	 248	 132 
 Car	 341	 120 
 Motorbike	 480	 134 
 $
+Person	  56	 114 
+Person	 246	 113 
+Car	 338	 120 
+Motorbike	 480	 152 
+$
+Motorbike	  68	 122 
+Motorbike	 241	 133 
+Motorbike	 243	 114 
+Car	 270	 112 
+Car	 331	 116 
+$
+Motorbike	  55	 122 
+Car	 269	 111 
+Car	 333	 121 
+Motorbike	 479	 153 
+$
+Motorbike	  56	 123 
+Car	 267	 111 
+Car	 331	 120 
+Motorbike	 480	 144 
+$
 Motorbike	 240	 133 
 Car	 268	 111 
 Car	 330	 116 
 Motorbike	 482	 133 
+$
+Motorbike	  52	 114 
+Motorbike	 241	 131 
+Motorbike	 240	 114 
+Car	 270	 111 
+Car	 331	 114 
+Motorbike	 482	 143 
+$
+Motorbike	 240	 123 
+Car	 267	 105 
+Car	 331	 114 
+Motorbike	 481	 143 
+$
+Motorbike	  53	 113 
+Person	 232	 103 
+Car	 266	 104 
+Car	 337	 114 
+Car	 389	 103 
+Motorbike	 483	 143 
+$
+Motorbike	  51	 112 
+Motorbike	 233	 123 
+Car	 265	 104 
+Car	 330	 113 
+Car	 388	 104 
+Motorbike	 483	 143 
 $
 Motorbike	  50	 113 
 Person	 232	 113 
 Car	 331	 115 
 Motorbike	 487	 152 
 $
+Car	 331	 122 
+$
+Motorbike	  44	 123 
+Person	 231	 113 
+Car	 261	 114 
+Car	 329	 130 
+$
+Motorbike	  33	 122 
+Car	 261	 121 
+Car	 327	 130 
+Car	 389	 122 
+Car	 495	 152 
+$
+Motorbike	 225	 143 
+Person	 229	 114 
+Car	 262	 121 
+Car	 330	 130 
+Car	 495	 162 
+$
 Motorbike	 225	 143 
 Car	 332	 126 
 $
+Motorbike	 226	 142 
+Car	 268	 115 
+Car	 331	 125 
+$
+Car	 267	 113 
+Car	 339	 122 
+$
+Car	 339	 120 
+$
+Motorbike	 231	 123 
+Car	 268	 104 
+Car	 340	 116 
+$
 Person	 232	 103 
 Car	 338	 115 
+$
+Motorbike	 227	 123 
+Car	 267	 104 
+Car	 338	 113 
+Car	 409	 104 
+$
+Car	 261	 105 
+Car	 330	 115 
+$
+Motorbike	 220	 132 
+Car	 326	 120 
+$
+Car	 325	 124 
 $
 Person	 210	 113 
 Car	 325	 125 
 Auto	 408	 115 
 $
+Motorbike	 213	 143 
+Car	 327	 130 
+$
+Motorbike	 219	 143 
+Car	 331	 130 
+$
+Car	 262	 121 
+Car	 332	 125 
+$
+Motorbike	 222	 143 
+Car	 264	 121 
+Car	 331	 131 
+$
 Car	 329	 133 
+$
+Car	 329	 132 
+$
+Motorbike	 211	 124 
+Car	 330	 125 
+$
+Car	 329	 124 
+Motorbike	 490	 122 
+$
+Car	 264	 113 
+Car	 331	 122 
 $
 Car	 265	 112 
 Car	 331	 121 
+$
+Motorbike	 220	 134 
+Person	 224	 104 
+Car	 264	 111 
+Car	 331	 121 
+$
+Motorbike	 210	 141 
+Person	 209	 104 
+Car	 264	 115 
+Car	 329	 124 
+$
+Motorbike	 211	 141 
+Car	 262	 115 
+Car	 328	 123 
+$
+Motorbike	 210	 143 
+Car	 264	 115 
+Car	 327	 124 
 $
 Motorbike	 210	 144 
 Car	 263	 116 
 Car	 329	 125 
 $
+Motorbike	 209	 144 
+Car	 264	 120 
+Car	 330	 124 
+$
+Motorbike	 211	 143 
+Car	 265	 116 
+Car	 337	 124 
+$
+Motorbike	 211	 144 
+Person	 212	 104 
+Car	 265	 116 
+Car	 331	 125 
+$
+Motorbike	 213	 143 
+Car	 265	 115 
+Car	 330	 125 
+$
 Motorbike	 212	 143 
 Car	 268	 121 
 Car	 331	 125 
+$
+Motorbike	 212	 144 
+Car	 338	 125 
+$
+Motorbike	 208	 144 
+Car	 268	 120 
+Car	 338	 125 
+$
+Motorbike	 210	 144 
+Car	 269	 121 
+Car	 338	 131 
+$
+Motorbike	 210	 133 
+Car	 338	 130 
 $
 Motorbike	 211	 151 
 Person	 206	 113 
 Car	 268	 122 
 Car	 339	 131 
 $
+Motorbike	 208	 152 
+Person	 206	 113 
+Car	 269	 123 
+Car	 339	 133 
+$
+Motorbike	 207	 151 
+Person	 205	 112 
+Car	 270	 123 
+Car	 330	 132 
+$
+Motorbike	 207	 151 
+Car	 270	 124 
+Car	 331	 132 
+$
+Car	 269	 122 
+Car	 338	 131 
+$
 Car	 269	 121 
 Car	 338	 129 
+$
+Motorbike	 205	 132 
+Car	 271	 116 
+Car	 331	 130 
+$
+Motorbike	 206	 143 
+Car	 272	 114 
+Car	 339	 124 
+$
+Motorbike	 207	 142 
+Person	 209	 103 
+Car	 280	 113 
+Car	 339	 123 
+$
+Motorbike	 206	 143 
+Car	 279	 112 
+Car	 339	 123 
 $
 Motorbike	 206	 143 
 Car	 279	 113 
 Car	 339	 123 
 $
+Motorbike	 206	 144 
+Car	 280	 112 
+Car	 338	 123 
+$
+Car	 272	 113 
+Car	 332	 125 
+$
+Car	 245	 113 
+Car	 283	 113 
+Car	 337	 125 
+$
+Motorbike	 206	 153 
+Car	 285	 115 
+Car	 338	 131 
+$
 Car	 283	 122 
 Car	 341	 134 
+$
+Motorbike	 204	 162 
+Car	 282	 125 
+Car	 339	 140 
+$
+Motorbike	 206	 142 
+Car	 284	 122 
+Car	 340	 134 
+$
+Person	 212	 113 
+Car	 287	 116 
+Car	 343	 133 
+$
+Motorbike	 208	 154 
+Person	 212	 111 
+Car	 290	 116 
+Car	 348	 131 
 $
 Motorbike	 211	 132 
 Car	 293	 116 
 Car	 348	 130 
 $
+Motorbike	 210	 154 
+Car	 293	 116 
+Car	 349	 131 
+$
+Motorbike	 210	 154 
+Person	 212	 111 
+Car	 290	 116 
+Car	 348	 132 
+$
+Motorbike	 206	 153 
+Person	 209	 112 
+Car	 243	 114 
+Car	 289	 115 
+Car	 345	 132 
+$
+Motorbike	 206	 153 
+Car	 287	 113 
+Car	 348	 126 
+$
 Motorbike	 210	 153 
 Car	 290	 113 
 Car	 351	 124 
+$
+Motorbike	 209	 153 
+Person	 211	 103 
+Car	 292	 110 
+Car	 348	 123 
+$
+Motorbike	 207	 152 
+Car	 291	 110 
+Car	 350	 123 
+$
+Motorbike	 207	 153 
+Car	 291	 112 
+Car	 349	 124 
+$
+Motorbike	 208	 153 
+Car	 293	 113 
+Car	 361	 130 
 $
 Motorbike	 208	 154 
 Car	 292	 114 
 Car	 361	 130 
 $
+Motorbike	 210	 162 
+Car	 293	 113 
+Car	 362	 130 
+$
+Motorbike	 209	 155 
+Car	 301	 112 
+Car	 360	 131 
+$
+Motorbike	 209	 155 
+Car	 361	 130 
+$
+Motorbike	 209	 154 
+Car	 360	 125 
+$
 Motorbike	 207	 154 
 Car	 360	 130 
 $
+Motorbike	 210	 163 
+Car	 300	 112 
+Car	 361	 131 
+Car	 481	 113 
+$
+Motorbike	 208	 162 
+Car	 301	 112 
+Car	 363	 131 
+Car	 488	 113 
+$
+Motorbike	 208	 131 
+Car	 300	 111 
+Car	 363	 125 
+Motorbike	 423	 114 
+Car	 488	 111 
+$
+Motorbike	 206	 154 
+Car	 300	 111 
+Car	 364	 125 
+$
 Car	 301	 111 
 Car	 364	 124 
+$
+Car	 300	 112 
+Car	 362	 125 
+$
+Car	 300	 113 
+Car	 362	 125 
+$
+Car	 301	 114 
+Car	 363	 132 
+$
+Car	 301	 113 
+Car	 362	 132 
 $
 Motorbike	 191	 163 
 Car	 302	 112 
 Car	 363	 125 
 $
 Motorbike	 189	 163 
+Car	 301	 113 
+Car	 362	 132 
+Car	 496	 113 
+$
+Motorbike	 191	 172 
+Car	 303	 116 
+Car	 363	 131 
+Motorbike	 441	 124 
+$
+Car	 304	 116 
+Car	 364	 131 
+Motorbike	 442	 123 
+$
+Motorbike	 189	 165 
+Car	 302	 115 
+Car	 365	 131 
+Motorbike	 442	 125 
+$
+Motorbike	 189	 163 
 Car	 302	 114 
 Car	 364	 132 
+$
+Motorbike	 187	 172 
+Person	 189	 113 
+Car	 303	 113 
+Car	 365	 132 
+Motorbike	 448	 123 
+$
+Car	 304	 115 
+Car	 364	 131 
+Motorbike	 446	 123 
+$
+Car	 303	 115 
+Car	 364	 131 
+Motorbike	 455	 125 
+$
+Car	 305	 115 
+Car	 366	 131 
+Motorbike	 460	 124 
 $
 Car	 307	 116 
 Car	 365	 131 
 Motorbike	 462	 125 
+$
+Motorbike	 170	 162 
+Car	 307	 116 
+Car	 366	 131 
+Motorbike	 463	 124 
+$
+Car	 307	 116 
+Car	 366	 131 
+$
+Car	 307	 115 
+Car	 361	 125 
+Motorbike	 469	 124 
+$
+Car	 304	 114 
+Car	 362	 125 
 $
 Motorbike	 170	 173 
 Car	 303	 114 
 Car	 363	 124 
 Motorbike	 482	 123 
 $
+Car	 303	 113 
+Car	 363	 123 
+Motorbike	 486	 123 
+$
+Car	 307	 111 
+Car	 365	 115 
+$
+Car	 306	 104 
+Car	 364	 114 
+$
+Car	 306	 106 
+Car	 363	 113 
+Motorbike	 497	 122 
+$
 Car	 362	 122 
 Motorbike	 499	 123 
 $
+Car	 307	 114 
+Car	 364	 123 
+$
+Car	 366	 131 
+$
+Motorbike	 166	 152 
+Car	 366	 132 
+$
+Car	 209	 132 
+Car	 370	 134 
+$
 Car	 369	 132 
+$
+Motorbike	 168	 182 
+Car	 371	 129 
+$
+Car	 360	 123 
+$
+Car	 359	 122 
+$
+Motorbike	 231	 105 
+Car	 343	 123 
 $
 Motorbike	  68	 113 
 Car	 350	 114 
 $
+Car	 350	 112 
+$
+Car	 348	 114 
+$
+Car	 341	 124 
+$
+Car	 339	 133 
+$
 Car	 339	 134 
+$
+Car	 344	 133 
+$
+Motorbike	 221	 122 
+Car	 341	 134 
+$
+Car	 345	 141 
+$
+Motorbike	 108	 192 
+Car	 344	 141 
 $
 Motorbike	 107	 193 
 Car	 343	 141 
+$
+Motorbike	 110	 194 
+Car	 341	 142 
+$
+Motorbike	 109	 193 
+Car	 341	 143 
+$
+Car	 340	 133 
+$
+Motorbike	 207	 114 
+Car	 342	 131 
 $
 Motorbike	 106	 173 
 Motorbike	 206	 114 
 Car	 342	 130 
 Car	 408	 110 
 $
+Motorbike	 204	 113 
+Car	 343	 126 
+Car	 408	 111 
+$
+Car	 344	 131 
+$
+Car	 344	 135 
+Car	 409	 121 
+$
+Car	 343	 142 
+Car	 408	 122 
+$
 Car	 341	 135 
 Car	 406	 122 
+$
+Car	 340	 134 
+$
+Car	  32	 122 
+Car	 338	 134 
+Car	 401	 120 
+$
+Car	 331	 134 
+Car	 401	 121 
+$
+Car	 330	 134 
+Car	 400	 122 
 $
 Car	 328	 132 
 Car	 401	 121 
 $
+Motorbike	 170	 112 
+Car	 330	 126 
+Car	 402	 112 
+$
+Car	 329	 124 
+Car	 400	 112 
+$
+Motorbike	 162	 110 
+Car	 326	 124 
+Car	 397	 112 
+$
+Car	 325	 123 
+Car	 400	 111 
+$
 Car	 324	 123 
 Car	 402	 110 
+$
+Car	 324	 122 
+Car	 403	 110 
+$
+Motorbike	 150	 111 
+Car	 325	 123 
+Car	 405	 113 
+$
+Motorbike	 149	 114 
+Car	 327	 124 
+Car	 408	 113 
+$
+Motorbike	 149	 113 
+Car	 328	 125 
+Car	 406	 114 
 $
 Motorbike	 145	 114 
 Car	 328	 125 
 Car	 409	 116 
 $
+Person	  89	 114 
+Car	 329	 131 
+Car	 409	 120 
+$
+Car	 328	 132 
+Car	 408	 120 
+$
+Car	 325	 131 
+Car	 408	 120 
+$
+Car	 322	 131 
+Car	 419	 122 
+$
 Car	 325	 132 
 Car	 421	 122 
+$
+Car	 325	 132 
+Car	 421	 123 
+$
+Car	 329	 132 
+Car	 422	 120 
+$
+Car	 329	 125 
+$
+Car	 329	 125 
 $
 Car	 328	 124 
 Car	 437	 121 
 $
+Car	 327	 125 
+Car	 437	 121 
+$
+Car	 327	 126 
+Car	 437	 121 
+$
+Car	 322	 124 
+Car	 437	 121 
+$
+Car	 325	 125 
+$
 Car	 323	 125 
 Car	 441	 121 
+$
+Car	 323	 130 
+Car	 439	 123 
+$
+Car	 322	 125 
+Car	 442	 121 
+$
+Car	 321	 130 
+Car	 447	 123 
+$
+Car	 321	 124 
+Car	 447	 121 
 $
 Motorbike	  53	 182 
 Car	 320	 125 
 Car	 456	 121 
 $
+Car	 319	 124 
+Car	 457	 120 
+$
+Car	 325	 124 
+Car	 460	 121 
+$
+Motorbike	  52	 182 
+Car	 329	 130 
+Car	 464	 122 
+$
+Motorbike	  51	 183 
+Car	 327	 130 
+Car	 464	 121 
+$
 Motorbike	  50	 182 
 Car	 328	 124 
 Car	 464	 122 
+$
+Car	 326	 125 
+Car	 466	 122 
+$
+Motorbike	  47	 183 
+Car	 325	 124 
+Car	 463	 122 
+$
+Car	 326	 121 
+Car	 465	 113 
+$
+Motorbike	  50	 173 
+Car	 330	 116 
+Car	 465	 112 
 $
 Motorbike	  51	 173 
 Car	 330	 121 
 Car	 468	 113 
 $
+Motorbike	  49	 172 
+Car	 328	 120 
+Car	 469	 113 
+$
+Motorbike	  44	 173 
+Car	 329	 120 
+Car	 470	 114 
+$
+Car	 328	 124 
+Car	 478	 124 
+$
+Car	 329	 123 
+Car	 479	 123 
+$
 Car	 329	 124 
 Car	 480	 123 
+$
+Car	 327	 122 
+Car	 485	 122 
+$
+Car	 326	 121 
+Car	 484	 123 
+$
+Motorbike	  33	 172 
+Car	 324	 115 
+Car	 487	 124 
+$
+Motorbike	 134	 101 
+Car	 327	 121 
 $
 Motorbike	 129	 102 
 Car	 327	 115 
 $
+Car	 332	 113 
+$
+Motorbike	 130	  94 
+Car	 339	 113 
+$
+Motorbike	  33	 132 
+Car	 330	 114 
+$
+Car	 331	 121 
+$
 Car	 329	 121 
+$
+Motorbike	 106	 104 
+Car	 327	 123 
+$
+Motorbike	 102	 112 
+Car	 332	 123 
+$
+Car	 340	 132 
+$
+Motorbike	  28	 162 
+Motorbike	  93	 114 
+Car	 339	 133 
 $
 Motorbike	  26	 172 
 Motorbike	  89	 121 
 Car	 338	 132 
 $
+Motorbike	  25	 152 
+Car	 339	 131 
+$
+Car	 339	 131 
+$
+Motorbike	  24	 143 
+Car	 340	 123 
+$
+Car	 341	 122 
+$
 Car	 344	 121 
+$
+Car	 344	 115 
+$
+Car	 342	 121 
+$
+Car	 341	 131 
+$
+Car	 339	 124 
 $
 Car	 340	 131 
 $
+Car	 339	 123 
+$
+Car	 340	 131 
+$
+Car	 339	 131 
+$
+Car	 331	 122 
+$
+$
+Car	 338	 113 
+$
+Car	 339	 112 
+$
+Car	 344	 102 
+$
+Car	 342	 102 
 $
 Car	 341	 103 
 $
+Car	 340	 112 
+$
+Car	 341	 121 
+$
+Car	 351	 123 
+$
+$
 Car	 349	 124 
+$
+Car	 347	 131 
+$
+Car	 338	 131 
+$
+Car	 341	 131 
+$
+Car	 345	 128 
 $
 Car	 347	 127 
 $
+Car	 348	 122 
+$
+Car	 346	 122 
+$
+Car	 348	 121 
+$
+Car	 347	 121 
+$
 Car	 343	 122 
+$
+Car	 346	 123 
+$
+Car	 345	 123 
+$
+Car	 348	 124 
+$
+Car	 347	 123 
 $
 Car	 348	 127 
 $
+Car	 361	 124 
+$
+Car	 348	 126 
+$
+Car	 350	 125 
+$
+Car	 349	 125 
+$
 Car	 349	 128 
 $
+Auto	  26	 122 
+Car	 349	 128 
+$
+Car	 346	 127 
+$
+Car	 350	 125 
+$
+Motorbike	 264	 110 
+Car	 349	 123 
+$
 Car	 349	 122 
+$
+Car	 361	 113 
+$
+Motorbike	 262	 101 
+Car	 360	 113 
+$
+Car	 362	 113 
+$
+Car	 361	 113 
 $
 Motorbike	 262	 101 
 Car	 361	 113 
 $
+Motorbike	 262	 101 
+Car	 362	 112 
+$
+Motorbike	 260	 102 
+Car	 362	 111 
+$
+Car	 363	 113 
+$
+Motorbike	 260	 107 
+Car	 365	 114 
+$
 Car	 363	 122 
+$
+$
+Car	 363	 123 
+$
+Car	 363	 122 
+$
+Car	 365	 124 
 $
 Car	 364	 125 
 $
+Car	 363	 122 
+$
+Car	 364	 115 
+$
+Car	 363	 126 
+$
+Car	 366	 126 
+$
 Car	 365	 126 
+$
+Motorbike	 245	 113 
+Car	 367	 127 
+$
+Motorbike	 247	 113 
+Car	 367	 127 
+$
+Car	 366	 126 
+$
+Car	 370	 125 
 $
 Car	 369	 126 
 $
+Car	 370	 125 
+$
+Car	 372	 125 
+$
+Car	 372	 126 
+$
+Car	 376	 127 
+$
 Car	 378	 125 
+$
+Car	 380	 126 
+$
+Car	 379	 125 
+$
+Motorbike	 250	 111 
+Motorbike	 308	 104 
+Car	 379	 127 
+$
+Car	 384	 125 
 $
 Car	 384	 123 
 $
+Car	 386	 123 
+$
+Car	 385	 123 
+$
+Car	 385	 126 
+$
 Car	 386	 129 
+$
+Car	 386	 129 
+$
+Car	 400	 130 
+$
+Car	 401	 132 
+$
+Car	 403	 133 
 $
 Car	 405	 143 
 $
+Car	 405	 143 
+$
+Car	 403	 143 
+$
+Car	 407	 146 
+$
+Car	 408	 144 
+$
+Car	 413	 144 
+$
 Car	 415	 143 
+$
+Car	 415	 142 
+$
+Car	 418	 142 
+$
+Person	 260	 131 
+Car	 414	 141 
+$
+Car	 416	 135 
 $
 Car	 419	 134 
 $
-Motorbike	 225	 132 
-Motorbike	 327	 123 
+Car	 422	 135 
+$
+Car	 418	 142 
+$
+Motorbike	 323	 124 
 Car	 421	 141 
 $
