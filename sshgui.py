@@ -1,6 +1,6 @@
 import tkinter as tk
 from PIL import Image, ImageTk
-from tkinter import filedialog
+from tkinter import filedialog , Label
 from itertools import count
 
 class ImageLabel(tk.Label):
@@ -20,7 +20,7 @@ class ImageLabel(tk.Label):
         try:
             self.delay = im.info['duration']
         except:
-            self.delay = 100
+            self.delay = 10
 
         if len(self.frames) == 1:
             self.config(image=self.frames[0])
@@ -59,6 +59,10 @@ class Application(tk.Frame):
         # self.infer.config(height = 5 , width = 5)
         self.infer.pack(side="top")
 
+        self.output = tk.Button(self, text = "Output" , fg = "blue",command = self.Output)
+        # self.infer.config(height = 5 , width = 5)
+        self.output.pack(side="top")
+
         self.quit = tk.Button(self, text="QUIT", fg="red",command=self.master.destroy)
         self.quit.pack(side="bottom")
     
@@ -66,11 +70,23 @@ class Application(tk.Frame):
         print("Infering {}.".format(root.filename))         
     
     def SelectImage(self):
-        root.filename = filedialog.askopenfilename(filetypes=[("Image File", '.jpeg')])
+        root.filename = filedialog.askopenfilename(filetypes=[("Image File", '.png')])
+
+    def Output(self):
+        path=filedialog.askopenfilename(filetypes=[("Image File",'.png')])
+        im = Image.open(path)
+        tkimage = ImageTk.PhotoImage(im)
+        myvar=Label(root,image = tkimage)
+        myvar.image = tkimage
+        myvar.pack()
+
 
 root = tk.Tk()
 lbl = ImageLabel(root)
 lbl.pack()
 lbl.load('giphy.gif')
+
+
+
 app = Application(master=root)
 app.mainloop()
