@@ -1,8 +1,12 @@
-import tkinter as tk
-from PIL import Image, ImageTk
-from tkinter import filedialog , Label
+import coloredlogs
 from itertools import count
-
+import logging
+import logging.config
+import paramiko
+from PIL import Image, ImageTk
+import tkinter as tk
+from tkinter import filedialog , Label
+import os
 class ImageLabel(tk.Label):
     def load(self, im):
         if isinstance(im, str):
@@ -54,7 +58,7 @@ class Application(tk.Frame):
         self.select = tk.Button(self, text="Select Image", fg="black", command = self.SelectImage)
         # self.select.config(height = 3 , width = 5)
         self.select.pack(side="top")
-        
+
         self.infer = tk.Button(self, text = "Infer" , fg = "green",command = self.Infer)
         # self.infer.config(height = 5 , width = 5)
         self.infer.pack(side="top")
@@ -65,10 +69,26 @@ class Application(tk.Frame):
 
         self.quit = tk.Button(self, text="QUIT", fg="red",command=self.master.destroy)
         self.quit.pack(side="bottom")
-    
+
+
     def Infer(self):
-        print("Infering {}.".format(root.filename))         
-    
+        print("Infering {}.".format(root.filename))
+        os.system("scp -i awsgpu.pem image.jpg ubuntu@ec2-52-21-223-125.compute-1.amazonaws.com:~/CollisionWarningSystem/monodepth/")
+        k = paramiko.RSAKey.from_private_key_file("awsgpu.pem")
+        c = paramiko.SSHClient()
+        c.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+        print("connecting")
+        c.connect( hostname = "ec2-52-21-223-125.compute-1.amazonaws.com", username = "ubuntu", pkey = k )
+        print("connected")
+        commands = [ "bash sshgui_single.sh"]
+        for command in commands:
+            print("Executing {}".format( command ))
+            stdin , stdout, stderr = c.exec_command(command)
+            print(stdout.read())
+            print("Errors")
+            print(stderr.read())
+        c.close()
+
     def SelectImage(self):
         root.filename = filedialog.askopenfilename(filetypes=[("Image File", '.png')])
 
@@ -79,6 +99,8 @@ class Application(tk.Frame):
         myvar=Label(root,image = tkimage)
         myvar.image = tkimage
         myvar.pack()
+
+
 
 
 root = tk.Tk()
