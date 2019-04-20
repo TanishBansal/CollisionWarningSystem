@@ -63,17 +63,20 @@ class Application(tk.Frame):
         # self.infer.config(height = 5 , width = 5)
         self.infer.pack(side="top")
 
-        self.output = tk.Button(self, text = "Output" , fg = "blue",command = self.Output)
-        # self.infer.config(height = 5 , width = 5)
-        self.output.pack(side="top")
-
         self.quit = tk.Button(self, text="QUIT", fg="red",command=self.master.destroy)
         self.quit.pack(side="bottom")
+
+    def Output(self):
+        im = Image.open("collisions.jpg")
+        tkimage = ImageTk.PhotoImage(im)
+        myvar = Label(root, image=tkimage)
+        myvar.image = tkimage
+        myvar.pack()
 
 
     def Infer(self):
         print("Infering {}.".format(root.filename))
-        os.system("scp -i awsgpu.pem image.jpg ubuntu@ec2-52-21-223-125.compute-1.amazonaws.com:~/CollisionWarningSystem/monodepth/")
+        os.system("scp -i awsgpu.pem {} ubuntu@ec2-52-21-223-125.compute-1.amazonaws.com:~/CollisionWarningSystem/monodepth/".format(root.filename))
         k = paramiko.RSAKey.from_private_key_file("awsgpu.pem")
         c = paramiko.SSHClient()
         c.set_missing_host_key_policy(paramiko.AutoAddPolicy())
@@ -88,17 +91,13 @@ class Application(tk.Frame):
             print("Errors")
             print(stderr.read())
         c.close()
+        os.system("scp -i awsgpu.pem ubuntu@ec2-52-21-223-125.compute-1.amazonaws.com:/home/ubuntu/CollisionWarningSystem/monodepth/darknet/collisions.jpg .")
+        self.Output()
 
     def SelectImage(self):
-        root.filename = filedialog.askopenfilename(filetypes=[("Image File", '.png')])
+        os.system("rm collisions.jpg")
+        root.filename = filedialog.askopenfilename(filetypes=[("Image File", '.jpg')])
 
-    def Output(self):
-        path=filedialog.askopenfilename(filetypes=[("Image File",'.png')])
-        im = Image.open(path)
-        tkimage = ImageTk.PhotoImage(im)
-        myvar=Label(root,image = tkimage)
-        myvar.image = tkimage
-        myvar.pack()
 
 
 
@@ -107,8 +106,6 @@ root = tk.Tk()
 lbl = ImageLabel(root)
 lbl.pack()
 lbl.load('giphy.gif')
-
-
 
 app = Application(master=root)
 app.mainloop()
