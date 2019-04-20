@@ -2,11 +2,11 @@ import coloredlogs
 from itertools import count
 import logging
 import logging.config
+import os
 import paramiko
 from PIL import Image, ImageTk
 import tkinter as tk
 from tkinter import filedialog , Label
-import os
 class ImageLabel(tk.Label):
     def load(self, im):
         if isinstance(im, str):
